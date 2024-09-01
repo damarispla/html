@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #004d30 2%, #1c1f23 2%, #1c1f23 98%, #004d30 98%); /* Verde oscuro en los bordes más angostos */
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc; /* Borde gris claro alrededor de la caja */
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 3rem;
+}
+
+.info {
+    background-color: white; /* Fondo blanco para la tabla */
+    padding: 60px;
+    border-radius: 8px;
+    color: black; /* Texto negro dentro de la tabla */
+    display: inline-block;
+    width: 500px; /* Hacemos la caja más cuadrada */
+    border: 10px solid white; /* Borde gris claro alrededor de la caja */
+        padding: 20px 0; /* Añade espacio extra entre las celdas */
+        line-height: 2; /* Incrementa el espacio entre las líneas de texto dentro de cada celda */
+    
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse; /* Colapsa los bordes para un mejor aspecto */
+}
+
+tr:not(:last-child) td {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc; /* Línea gris debajo de las filas excepto la última */
+}
+
+tr:last-child td {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc; /* Línea gris debajo de las filas excepto la última */
+}
+
+strong {
+    color: black;
+}
